@@ -1,5 +1,4 @@
 'use strict';
-document.querySelector('.ads').remove();
 const title = document.querySelectorAll('h2');
 const content = document.querySelectorAll('.content');
 const pics = document.querySelectorAll('.item__image');
@@ -22,5 +21,7 @@ propsItems[2].after(propsItems[14]);
 content[3].append(propsList[4]);
 content[4].append(propsList[3]);
 item[3].after(item[0]);
+
+document.querySelector('.ads').remove();
 
 
